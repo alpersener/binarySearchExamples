@@ -24,6 +24,10 @@ Middle elementi bulduktan sonra target’e göre sağa ya da sola gidildiğinde 
 
 *   Örneğin dizideki eleman sayısı 10 olsa log10 yani log2 tabanında 10 =3,12… vs yani 3 adımda bulmuş olacaktır.
 
+
+   ```
+
+
     public class BinarySearchExample {
         public static void main(String[] args) {
             int[] arr={2,4,6,9,11,12,14,20,36,48};
@@ -50,6 +54,8 @@ Middle elementi bulduktan sonra target’e göre sağa ya da sola gidildiğinde 
             return -1;
         }
     }
+```
+
 
 Order Agnostic Binary Search
 ============================
@@ -58,8 +64,7 @@ Binary search kullanırken elemanların ascending ya da descending olarak sıral
 
 Ancak elimizde böyle bir bilgi yoksa ascending olarak mı yoksa descending olarak mı sıralanmış olduğunu bilmiyorsak order agnostic binary search kullanmak yararlıdır.
 
-    package BinarySearch;
-    
+```
     public class OrderAgnosticBinarySearch {
         public static void main(String[] args) {
     //        int[] arr={-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
@@ -108,3 +113,4 @@ Ancak elimizde böyle bir bilgi yoksa ascending olarak mı yoksa descending olar
             }
     
         }
+```
