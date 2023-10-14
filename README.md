@@ -1,3 +1,5 @@
+# BINARY SEARCH
+
 **Binary search kullanmak için array’in sorted olması gerekir.Sorted bir array içerisinde arama aralığını her defasında 2 ye bölerek kullanılan bir search algoritmasıdır.O(logn) time complexity’e sahiptir.**
 
 ![photo1](https://github.com/alpersener/binarySearchExamples/blob/master/photo1.png)
